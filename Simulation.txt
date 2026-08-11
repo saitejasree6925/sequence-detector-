@@ -1,0 +1,2 @@
+iverilog -o sequence_detector_sim sequence_detector.v sequence_detector_tb.v
+vvp sequence_detector_sim
